@@ -12,7 +12,7 @@ int main(void)
 
 
 
-	for (ch = '1'; ch <= '9'; ch++)
+	for (ch = '0'; ch <= '9'; ch++)
 		putchar (ch);
 
 	for (ch = 'a'; ch <= 'f'; ch++)
