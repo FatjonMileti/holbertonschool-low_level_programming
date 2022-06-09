@@ -9,7 +9,7 @@ int main(void)
 	long int pri = 1, sec = 2, sum;
 	int i;
 
-	printf("%d, %d", pri, sec);
+	printf("%ld, %ld", pri, sec);
 	for (i = 3; i <= 50; i++)
 	{
 		sum = pri + sec;
