@@ -8,8 +8,8 @@ int main(void)
 {
 	int pri = 1, sec = 2, sum, i;
 
-	printf("%d", pri);
-	for (i = 1; i < 50; i++)
+	printf("%d, %d", pri, sec);
+	for (i = 2; i < 50; i++)
 	{
 		sum = pri + sec;
 		pri = sec;
