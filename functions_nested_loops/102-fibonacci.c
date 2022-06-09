@@ -14,7 +14,7 @@ int main(void)
 		sum = pri + sec;
 		pri = sec;
 		sec = sum;
-		printf("%d, ", sum);
+		printf(",%d", sum);
 	}
 	return (0);
 }
