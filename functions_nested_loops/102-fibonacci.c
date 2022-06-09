@@ -6,13 +6,14 @@
  */
 int main(void)
 {
-	int pri = 1, sec = 2, sum, i;
+	long int pri = 1, sec = 2, sum;
+	int i;
 
 	printf("%d, %d", pri, sec);
 	for (i = 3; i <= 50; i++)
 	{
 		sum = pri + sec;
-		printf(", %d", sum);
+		printf(", %ld", sum);
 		pri = sec;
 		sec = sum;
 	}
