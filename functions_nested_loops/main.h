@@ -13,3 +13,4 @@ void print_to_98(int n);
 void print_times_table(int n);
 void print_hundred(void);
 void print_comma(void);
+int main(void);
