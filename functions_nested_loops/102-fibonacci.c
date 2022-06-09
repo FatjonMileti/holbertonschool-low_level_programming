@@ -6,9 +6,11 @@
  */
 int main(void)
 {
-	long int pri = 1, sec = 2, sum;
+	long int pri, sec, sum;
 	int i;
 
+	pri = 1;
+	sec = 2;
 	printf("%ld, %ld", pri, sec);
 	for (i = 3; i <= 50; i++)
 	{
@@ -17,5 +19,6 @@ int main(void)
 		pri = sec;
 		sec = sum;
 	}
+	putchar('\n');
 	return (0);
 }
