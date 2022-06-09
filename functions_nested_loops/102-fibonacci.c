@@ -12,7 +12,7 @@ int main(void)
 	for (i = 3; i <= 50; i++)
 	{
 		sum = pri + sec;
-		printf(", %ld", sum);
+		printf(", %d", sum);
 		pri = sec;
 		sec = sum;
 	}
