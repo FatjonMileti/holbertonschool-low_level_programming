@@ -1,4 +1,4 @@
-#include <"main.h">
+#include "main.h"
 /**
  * print_last_digit - function that prints the last digit of a number.
  * @n: The character to print
@@ -8,10 +8,11 @@
 
 int print_last_digit(int n)
 {
-	m = n % 10;
-	if n < 0
+
+	int m = n % 10;
+	if (n < 0)
 	{
-		m = m * -1
+		m = m * -1;
 	}
 	return (m);
 }
