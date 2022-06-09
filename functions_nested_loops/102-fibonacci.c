@@ -9,12 +9,12 @@ int main(void)
 	int pri = 1, sec = 2, sum, i;
 
 	printf("%d, %d", pri, sec);
-	for (i = 2; i < 50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 		sum = pri + sec;
+		printf(", %ld", sum);
 		pri = sec;
 		sec = sum;
-		printf(",%d", sum);
 	}
 	return (0);
 }
