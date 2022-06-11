@@ -2,7 +2,7 @@
 ## Tasks :page_with_curl:
 | Tasks | |
 | --- | --- |
-|[0-putchar.c](https://github.com/FatjonMileti/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/0-putchar.c)|  Prints "\_putchar" followed by a new line.|
+|[0-putchar.c](./0-putchar.c)|  Prints "\_putchar" followed by a new line.|
 |[main.h](https://github.com/FatjonMileti/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/main.h)| Header file that contain all of the above functions.|
 |[1-alphabet.c](https://github.com/FatjonMileti/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/1-alphabet.c)| Print the alphabet in lowercase, followed by a new line.|
 |[2-print_alphabet_x10.c](https://github.com/FatjonMileti/holbertonschool-low_level_programming/blob/master/0x02-functions_nested_loops/2-print_alphabet_x10.c)| Print 10 times the alphabet in lowercase, followed by a new line.|
