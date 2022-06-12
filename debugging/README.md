@@ -3,7 +3,7 @@ Debugging tactics can involve interactive debugging, control flow analysis, unit
 
 # Tasks for Debugging
 
-[0-main.c](./0x03-debugging/0-main.c)
+[0-main.c](./0-main.c)
 
 [1-main.c](./1-main.c)
 
