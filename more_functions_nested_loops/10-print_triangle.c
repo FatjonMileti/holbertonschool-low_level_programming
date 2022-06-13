@@ -1,16 +1,16 @@
 #include "main.h"
 /**
- * print_line - Gets n from main
- * @n: int
+ * print_triangle - Gets n from main
+ *@size: intiger
  * Return: void
  */
 void print_triangle(int size)
 {
-int i, j;
+	int i, j;
 
 	if (size <= 0)
 	{
-	_putchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
@@ -26,7 +26,7 @@ int i, j;
 					_putchar('#');
 				}
 				 _putchar('\n');
-			}
 		}
+	}
 }
 
