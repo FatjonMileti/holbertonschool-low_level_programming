@@ -2,8 +2,8 @@
 
 /**
  * print_diagonal - check the code.
- * @n: to check
- * Return:  0 or 1.
+ * @n: intiger
+ * Return:  Always 0.
  */
 void print_diagonal(int n)
 {
