@@ -4,6 +4,7 @@
  *_strcpy - updates to 98
  *@dest:takes an integer
  *@src:takes an integer
+ *Return: dest
  */
 char *_strcpy(char *dest, char *src)
 {
