@@ -1,9 +1,8 @@
 #include "main.h"
 /**
  * _strcat - concatenate two strings
- * @dest: string
- * @src: string
- * Return: string
+ * @st: string
+ * Return: st
  */
 char *cap_string(char *st)
 {
