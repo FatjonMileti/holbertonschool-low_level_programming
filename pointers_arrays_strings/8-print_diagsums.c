@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * void print_diagsums - concatenate two strings
+ * print_diagsums - concatenate two strings
  * @a: string
  * @size: string
  */
