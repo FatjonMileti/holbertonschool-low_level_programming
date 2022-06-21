@@ -1,6 +1,6 @@
 # C- Recursion
 
-[0-puts_recursion.c](https://github.com/endritNovaku/holbertonschool-low_level_programming/blob/master/0x08-recursion/0-puts_recursion.c) - prints a string followed by a new line
+[0-puts_recursion.c](./0-puts_recursion.c) - prints a string followed by a new line
 
 [100-is_palindrome.c](./100-is_palindrome.c) - returns 1 if a string is a palindrome and 0 if not
 
