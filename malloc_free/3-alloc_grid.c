@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /**
  * alloc_grid - entry point
  * @width: arr
@@ -8,38 +9,36 @@
 
 int **alloc_grid(int width, int height)
 {
-	int **ar;
-	int i, j;
+	int **my_array;
+	int j, k;
 
 	if (width <= 0 || height <= 0)
 		return (NULL);
 
-	ar = malloc(sizeof(int *) * height);
-	if (ar == NULL)
-		return (NULL);
+	my_array = malloc(sizeof(int *) * height);
 
-	for (i = 0; i < height; i++)
+	if (my_array == NULL)
+		return (NULL);
+	for (j = 0; j < height; j++)
 	{
-		ar[i] = malloc(sizeof(int) * width);
-		if (ar[i] == NULL)
+		my_array[j] = malloc(sizeof(int) * width);
+		if (my_array[j] == NULL)
 		{
-			while (i >= 0)
+			while (j >= 0)
 			{
-				free(ar[i]);
-				i--;
+				free(my_array[j]);
+				j--;
 			}
-			free(ar);
+			free(my_array);
 			return (NULL);
 		}
 	}
-
-	for (i = 0; i < height; i++)
+	for (j = 0; j < height; j++)
 	{
-		for (j = 0; j < width; j++)
+		for (k = 0; k < width; k++)
 		{
-			ar[i][j] = 0;
+			my_array[j][k] = 0;
 		}
 	}
-
-	return (ar);
+	return (my_array);
 }
