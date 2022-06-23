@@ -1,11 +1,9 @@
 #include "main.h"
-#include <stdlib.h>
-
 /**
- * free_grid - creates an array of chars.
- * @grid: size of the array.
- * @height: storaged char
- * Return: pointer of an array of chars
+ * free_grid - called from main
+ * @grid: int
+ * @height: int
+ * Return: void
  */
 void free_grid(int **grid, int height)
 {
@@ -15,6 +13,5 @@ void free_grid(int **grid, int height)
 	{
 		free(grid[i]);
 	}
-
 	free(grid);
 }
