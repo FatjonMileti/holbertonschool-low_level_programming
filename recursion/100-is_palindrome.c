@@ -2,7 +2,7 @@
 /**
  * length - lenth
  * @s: string
- * Return: 0 
+ * Return: 0
  */
 int length(char *s)
 {
