@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * create_array - creates an array of chars.
- * @size: size of the array.
- * @c: storaged char
- * Return: pointer of an array of chars
+ * argstostr - creates an array of chars.
+ * @ac: size of the array.
+ * @av: storaged char
+ * Return: str
  */
 char *argstostr(int ac, char **av)
 {
@@ -30,7 +30,7 @@ char *argstostr(int ac, char **av)
 
 	for (i = 0; i < ac; i++)
 	{
-		for (j = 0; j < av[i][j]; j++)
+		for (j = 0; av[i][j]; j++)
 			str[k++] = av[i][j];
 
 		str[k++] = '\n';
