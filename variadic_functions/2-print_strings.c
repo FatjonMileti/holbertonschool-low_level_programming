@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include "variadic_functions.h"
 /**
- * print_numbers - print numbers
+ * print_strings - print numbers
  * @n: intiger
  * @separator: separator
  */
@@ -22,7 +22,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 				printf("%s", str);
 			}
 			else
-				printf("nil");
+				printf("(nil)");
 			if (i < n - 1 && separator)
 			printf("%s", separator);
 		}
