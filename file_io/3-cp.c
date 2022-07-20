@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		exit(98);
 	}
 	fd1 = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
-	while ((rf = read(fd, txt, txtSIZ)) > 0)
+	while ((rf = read(fd, txt, 1024)) > 0)
 	{
 		if (fd1 == -1 || write(fd1, txt, rf) != rf)
 		{
