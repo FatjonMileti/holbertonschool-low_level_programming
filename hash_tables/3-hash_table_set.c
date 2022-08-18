@@ -1,6 +1,10 @@
 #include "hash_tables.h"
 /**
- *
+ * hash_table_set - ...
+ * @key: ...
+ * @value:...
+ * @ht: ...
+ * Return: ...
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
@@ -31,7 +35,6 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		return (0);
 	new->next = ht->array[idx];
 	ht->array[idx] = new;
-		
 
 	return (1);
 }
