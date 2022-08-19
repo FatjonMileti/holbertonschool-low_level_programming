@@ -1,13 +1,15 @@
 #include "hash_tables.h"
 /**
- *
+ *hash_table_print - ...
+ *@ht: ...
+ *Rerurn: ...
  */
 void hash_table_print(const hash_table_t *ht)
 {
 	unsigned int i;
 	hash_node_t *current;
 	short flag = 0;
-	
+
 	if (ht == NULL)
 		return;
 	printf("{");
@@ -17,7 +19,7 @@ void hash_table_print(const hash_table_t *ht)
 		if (ht->array[i] != NULL)
 		{
 			if (flag == 1)
-				printf (", ");
+				printf(", ");
 
 			current = ht->array[i];
 			while (current != NULL)
@@ -27,7 +29,7 @@ void hash_table_print(const hash_table_t *ht)
 				if (current != NULL)
 					printf(", ");
 			}
-			flag =1;
+			flag = 1;
 		}
 		i++;
 	}
