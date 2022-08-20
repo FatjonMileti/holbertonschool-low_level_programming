@@ -4,3 +4,6 @@
 [submodule "holbertonschool-printf"]
 	path = holbertonschool-printf
 	url = https://github.com/FatjonMileti/holbertonschool-printf
+[submodule "holbertonschool-simple_shell"]
+	path = holbertonschool-simple_shell
+	url = https://github.com/tizihoxha/holbertonschool-simple_shell
