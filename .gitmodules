@@ -1,0 +1,3 @@
+[submodule "holbertonschool-monty"]
+	path = holbertonschool-monty
+	url = https://github.com/FatjonMileti/holbertonschool-monty
