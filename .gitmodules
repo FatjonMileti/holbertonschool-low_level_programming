@@ -7,3 +7,6 @@
 [submodule "holbertonschool-simple_shell"]
 	path = holbertonschool-simple_shell
 	url = https://github.com/tizihoxha/holbertonschool-simple_shell
+[submodule "holbertonschool-sorting_algorithms"]
+	path = holbertonschool-sorting_algorithms
+	url = https://github.com/viviani22/holbertonschool-sorting_algorithms
